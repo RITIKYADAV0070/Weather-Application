@@ -1,55 +1,124 @@
 # Weather Application
+A sleek, modern weather application built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui — designed to deliver current weather forecasts in a user-friendly interface.
+
 
 ## Project info
 
 **URL**: https://weather-application-eight-kappa.vercel.app/
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+Table of Contents
 
-**Use your preferred IDE**
+Demo
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Tech Stack
 
-Follow these steps:
+Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+Running Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Usage
+
+Folder Structure
+
+Contributing
+
+License
+
+Demo
+
+The app is deployed live:
+weather-application-eight-kappa.vercel.app — try it out to explore its features. 
+GitHub
+
+Features
+
+Current Weather Data: View live weather conditions for any city.
+
+Responsive Design: Optimized for desktops, tablets, and mobile devices.
+
+Clean UI: Built with shadcn-ui components and Tailwind CSS for a modern look.
+
+Fast and Lightweight: Powered by Vite with immediate reloading during development.
+
+Tech Stack
+
+Framework & Bundler: Vite & React (TypeScript) 
+GitHub
+
+UI & Styling: Tailwind CSS + shadcn-ui 
+GitHub
+
+Getting Started
+Prerequisites
+
+Node.js (v14 or later)
+
+npm or yarn
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/RITIKYADAV0070/Weather-Application.git
+cd Weather-Application
+
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+
+Running Locally
 npm run dev
-```
+# or
+yarn dev
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Then navigate to http://localhost:5173 (or the port shown in the terminal) to view the app.
 
-**Use GitHub Codespaces**
+Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Use the search bar to enter a city name.
 
-## What technologies are used for this project?
+View the current weather conditions, temperature, and more.
 
-This project is built with:
+The interface adapts smoothly to different screen sizes.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Project Structure
+Weather-Application/
+├─ public/
+├─ src/
+│  ├─ components/        # UI components (shadcn-ui, custom elements)
+│  ├─ pages/             # Page-level views like Home, Weather
+│  ├─ services/          # API calls & data fetching logic
+│  ├─ styles/            # Tailwind config and global styles
+│  ├─ App.tsx            # Root application
+│  └─ main.tsx           # App entry point
+├─ package.json           # Scripts & dependencies
+├─ tsconfig.json          # TypeScript config
+├─ vite.config.ts         # Vite config
+└─ README.md              # This file
+
+Contributing
+
+Contributions are welcome! Whether it's UI enhancements, bug fixes, or better documentation, here’s how you can pitch in:
+
+Fork the repo
+
+Create a new branch (git checkout -b feature/your-feature)
+
+Make your changes & test locally
+
+Commit and push (git push origin feature/your-feature)
+
+Open a Pull Request
+
+Review and iterate — thank you for helping improve the app!
